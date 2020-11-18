@@ -1,0 +1,11 @@
+---
+title: "La mobilité en Wallonie : Carnet de notes"
+author: "___"
+date: "___"
+output: html_document
+---
+
+
+<!--- Consignes
+Ce document doit contenir l'ensemble de vos réflexions sur les données. Chaque graphique ou analyse doit être décrit brièvement.
+--->
