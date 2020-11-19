@@ -12,7 +12,7 @@ Ce projet est en projet **libre** en **équipe**. Il permettra de nous démontre
 
 - maîtriser l'analyse de séries spatio-temporelles.
 
-- Comprendre et appliquer la décomposition de séries spatio-temporelles.
+- comprendre et appliquer la décomposition de séries spatio-temporelles.
 
 ## Consignes
 
