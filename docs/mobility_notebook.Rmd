@@ -1,11 +1,8 @@
 ---
-title: "La mobilité en Wallonie : Carnet de notes"
+title: "Mobilité en Wallonie avant et pendant la pandémier COVID-19"
 author: "___"
 date: "___"
 output: html_document
 ---
 
-
-<!--- Consignes
-Ce document doit contenir l'ensemble de vos réflexions sur les données. Chaque graphique ou analyse doit être décrit brièvement.
---->
+<!--% Ce document doit reprendre l'ensemble de vos analyses autour du jeu de données `data/mobility_wallonia.rds`. Chaque item doit être décrit brièvement. -->

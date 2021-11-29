@@ -5,6 +5,4 @@ date: "___"
 output: html_document
 ---
 
-<!--- Consignes
-Ce document doit être une synthèse de vos observations consignées dans le notebook. Ce rapport ne peut dépasser 10-15 pages.
---->
+<!--% Ce document doit être une synthèse de vos analyses reprise du notebook afin de répondre au mieux à la question posée. Ce rapport ne peut dépasser 10-15 pages et doit être compilable (bouton Knit) sous forme HTML sans erreurs. -->
