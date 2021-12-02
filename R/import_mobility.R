@@ -9,7 +9,7 @@ SciViews::R
 mobility <- read("https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv")
 
 mobility %>.%
-  filter(., country_region == "Belgium" & sub_region_1 == "Wallonia") %>.%
+  filter(., country_region == "Belgium" & iso_3166_2_code == "BE-WAL") %>.%
   select(., date:residential_percent_change_from_baseline) ->
   mobi_wallonia
 
