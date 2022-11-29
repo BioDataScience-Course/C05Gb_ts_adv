@@ -10,7 +10,8 @@ mobility <- fread("https://www.gstatic.com/covid19/mobility/Global_Mobility_Repo
 
 mobility %>.%
   sfilter(., country_region == "Belgium" & iso_3166_2_code == "BE-WAL") %>.%
-  sselect(., date:residential_percent_change_from_baseline) ->
+  sselect(., date:residential_percent_change_from_baseline) %>.%
+  smutate(., date = lubridate::ymd(date)) ->
   mobi_wallonia
 
 # write$rds(mobi_wallonia, "data/mobility_wallonia.rds", compress = "xz")
