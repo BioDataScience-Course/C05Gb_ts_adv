@@ -6,11 +6,11 @@
 
 SciViews::R
 
-mobility <- read("https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv")
+mobility <- fread("https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv")
 
 mobility %>.%
-  filter(., country_region == "Belgium" & iso_3166_2_code == "BE-WAL") %>.%
-  select(., date:residential_percent_change_from_baseline) ->
+  sfilter(., country_region == "Belgium" & iso_3166_2_code == "BE-WAL") %>.%
+  sselect(., date:residential_percent_change_from_baseline) ->
   mobi_wallonia
 
 # write$rds(mobi_wallonia, "data/mobility_wallonia.rds", compress = "xz")
